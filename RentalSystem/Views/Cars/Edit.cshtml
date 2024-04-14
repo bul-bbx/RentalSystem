@@ -1,0 +1,62 @@
+﻿@model CarEditViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Car</h1>
+
+<hr />
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-route-id="@Model.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Brand" class="car-label"></label>
+                <input asp-for="Brand" class="car-input" />
+                <span asp-validation-for="Brand" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model" class="car-label"></label>
+                <input asp-for="Model" class="car-input" />
+                <span asp-validation-for="Model" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Year" class="car-label"></label>
+                <input asp-for="Year" class="car-input" />
+                <span asp-validation-for="Year" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PassengerSeats" class="car-label"></label>
+                <input asp-for="PassengerSeats" class="car-input" />
+                <span asp-validation-for="PassengerSeats" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="car-label"></label>
+                <input asp-for="Description" class="car-input" />
+                <span asp-validation-for="Description" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PricePerDay" class="car-label"></label>
+                <input asp-for="PricePerDay" class="car-input" />
+                <span asp-validation-for="PricePerDay" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fuel" class="car-label"></label>
+                <input asp-for="Fuel" class="car-input" />
+                <span asp-validation-for="Fuel" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="car-btn" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

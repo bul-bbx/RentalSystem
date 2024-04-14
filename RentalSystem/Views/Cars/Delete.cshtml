@@ -1,0 +1,39 @@
+﻿@model CarDeleteViewModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete Car</h1>
+
+<hr />
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Brand:</dt>
+        <dd>@Model.Brand</dd>
+        <dt>Model:</dt>
+        <dd>@Model.Model</dd>
+        <dt>Year:</dt>
+        <dd>@Model.Year</dd>
+        <dt>Passenger Seats:</dt>
+        <dd>@Model.PassengerSeats</dd>
+        <dt>Description:</dt>
+        <dd>@Model.Description</dd>
+        <dt>Price Per Day:</dt>
+        <dd>@Model.PricePerDay</dd>
+        <dt>Fuel:</dt>
+        <dd>@Model.Fuel</dd>
+    </dl>
+    <form method="post" asp-action="DeleteConfirmed" asp-route-id="@Model.Id">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        <a asp-action="All" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

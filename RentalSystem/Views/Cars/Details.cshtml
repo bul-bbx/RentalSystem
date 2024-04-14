@@ -1,0 +1,59 @@
+﻿@model CarDetailsViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Car Details</h1>
+
+<hr />
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-route-id="@Model.Id">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Brand" class="car-label"></label>
+                <dd>@Model.Brand</dd>
+                <span asp-validation-for="Brand" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model" class="car-label"></label>
+                <dd>@Model.Model</dd>
+                <span asp-validation-for="Model" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Year" class="car-label"></label>
+                <dd>@Model.Year</dd>
+                <span asp-validation-for="Year" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PassengerSeats" class="car-label"></label>
+                <dd>@Model.PassengerSeats</dd>
+                <span asp-validation-for="PassengerSeats" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="car-label"></label>
+                <dd>@Model.Description</dd>
+                <span asp-validation-for="Description" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PricePerDay" class="car-label"></label>
+                <dd>@Model.PricePerDay</dd>
+                <span asp-validation-for="PricePerDay" class="car-error-message"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fuel" class="car-label"></label>
+                <dd>@Model.Fuel</dd>
+                <span asp-validation-for="Fuel" class="car-error-message"></span>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

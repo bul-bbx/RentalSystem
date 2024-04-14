@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CarListingViewModel>
+
+<h2>Available Cars</h2>
+<h3>Specify Rental Dates</h3>
+<!-- Rental date selection form -->
+<form id="rentalDatesForm" asp-controller="Cars" asp-action="AvailableCars" method="post">
+    <div class="form-group">
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Find Available Cars</button>
+</form>
+ 
+<!-- Display available cars -->
+<div id="availableCarsContainer"></div>
+
+<!-- User request view table -->
+<table id="userrequestview" class="table">
+    <thead>
+        <tr>
+            <th>Brand</th>
+            <th>Model</th>
+            <th>Year</th>
+            <th>Passenger Seats</th>
+            <th>Description</th>
+            <th>Price Per Day</th>
+            <th>Fuel</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows will be dynamically added here after form submission -->
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#rentalDatesForm').submit(function (event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get the selected dates
+                var startDate = $('#startDate').val();
+                var endDate = $('#endDate').val();
+
+                // Perform AJAX request to get the available cars
+                $.post("/Cars/AvailableCars", { startDate: startDate, endDate: endDate })
+                    .done(function (data) {
+                        // Extract the table rows from the fetched HTML
+                        var $tableRows = $(data).find('table tbody').html();
+
+                        // Replace the content of the user request view table with the fetched table rows
+                        $('#userrequestview tbody').html($tableRows);
+                    })
+                    .fail(function () {
+                        console.error("Error fetching available cars.");
+                    });
+            });
+        });
+    </script>
+}

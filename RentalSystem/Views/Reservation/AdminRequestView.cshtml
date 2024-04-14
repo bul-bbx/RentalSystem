@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ReservationListingViewModel>
+
+@{
+    ViewData["Title"] = "All Requests";
+    const string dateFormat = "dd-MMM-yyyy hh:mm:ss";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>All Requests</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Requests</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Car Brand</th>
+                <th>Car Model</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Customer</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var request in Model)
+            {
+                <tr>
+                    <td>@request.Car.Brand</td>
+                    <td>@request.Car.Model</td>
+                    <td>@request.StartDate.ToString(dateFormat)</td>
+                    <td>@request.EndDate.ToString(dateFormat)</td>
+                    <td>@request.User.UserName</td>
+                    <td>
+                        <form asp-controller="Reservation" asp-action="Accept" method="post">
+                            <input type="hidden" name="RequestId" value="@request.Car.Id" />
+                            <button type="submit" class="btn btn-success">Accept</button>
+                        </form>
+                        <form asp-controller="Reservation" asp-action="Deny" method="post">
+                            <input type="hidden" name="RequestId" value="@request.Car.Id" />
+                            <button type="submit" class="btn btn-danger">Deny</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

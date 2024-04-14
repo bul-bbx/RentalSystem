@@ -1,0 +1,59 @@
+﻿<!-- Available Cars Table -->
+@model IEnumerable<CarListingViewModel>
+
+<h2>Available Cars</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <!-- Table Headers -->
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Year</th>
+                <th>Passenger Seats</th>
+                <th>Description</th>
+                <th>Price Per Day</th>
+                <th>Fuel</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+            <!-- Loop through each car in the model -->
+            @foreach (var car in Model)
+            {
+                <tr>
+                    <!-- Display car details in table cells -->
+                    <td>@car.Brand</td>
+                    <td>@car.Model</td>
+                    <td>@car.Year</td>
+                    <td>@car.PassengerSeats</td>
+                    <td>@car.Description</td>
+                    <td>@car.PricePerDay</td>
+                    <td>@car.Fuel</td>
+                    <td>
+                        <!-- Form for requesting rental -->
+                        <form id="rentalRequestForm_@car.Id" asp-controller="Cars" asp-action="RequestRental" method="post">
+                            <!-- Hidden input fields for car ID, start date, and end date -->
+                            <input type="hidden" name="carId" value="@car.Id" />
+                            <input type="hidden" name="startDate" id="startDate_@car.Id" />
+                            <input type="hidden" name="endDate" id="endDate_@car.Id" />
+                            <!-- Button to request rental -->
+                            <button type="button" class="btn btn-success btn-request-rental" data-car-id="@car.Id">Request Rental</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No available cars found for the specified dates.</p>
+}
+
+<!-- Message to indicate that the request has been sent -->
+<div id="requestSentMessage" style="display: none; color: green;">Request has been sent.</div>

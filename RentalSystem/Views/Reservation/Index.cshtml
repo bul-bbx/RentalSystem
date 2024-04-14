@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Reservations";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Requests</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Requests</h2>
+    <div id="request-container">
+        @if (User.IsInRole("Admin"))
+        {
+            <partial name="AdminRequestView" />
+        }
+        else
+        {
+            <partial name="UserRequestView" />
+        }
+    </div>
+
+</body>
+</html>
+

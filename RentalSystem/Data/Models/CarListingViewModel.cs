@@ -20,5 +20,6 @@ namespace RentalSystem.Data.Models
 
         public decimal PricePerDay { get; set; }
         public string Fuel { get; set; }
+
     }
 }

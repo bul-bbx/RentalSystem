@@ -20,7 +20,7 @@ namespace RentalSystem.Web.Controllers
         }
 
         [HttpGet]
-        public IActionResult Create() 
+        public IActionResult UserRequestView() 
         {
             return View();
         }
@@ -32,7 +32,6 @@ namespace RentalSystem.Web.Controllers
             {
                 return RedirectToAction("All", "Cars");
             }
-
             var serviceModel = _mapper.Map<ReservationServiceModel>(model);
 
             var result = await _requestsService.Create(serviceModel, User.Identity.Name);

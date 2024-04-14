@@ -10,6 +10,9 @@ namespace RentalSystem.Data.Models
         public string CarId { get; set; }
 
         [Required]
+        public string UserId { get; set; }
+
+        [Required]
         [Display(Name = "Start Date")]
         public DateTime StartDate { get; set; }
 

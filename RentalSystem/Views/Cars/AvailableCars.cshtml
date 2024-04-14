@@ -1,5 +1,9 @@
 ﻿<!-- Available Cars Table -->
+@using Microsoft.AspNetCore.Identity;
+@using RentalSystem.Data.Entities;
+@using RentalSystem.Data.Models
 @model IEnumerable<CarListingViewModel>
+@inject UserManager<User> userManager
 
 <h2>Available Cars</h2>
 
@@ -39,6 +43,7 @@
                         <form id="rentalRequestForm_@car.Id" asp-controller="Cars" asp-action="RequestRental" method="post">
                             <!-- Hidden input fields for car ID, start date, and end date -->
                             <input type="hidden" name="carId" value="@car.Id" />
+                            <input type="hidden" name="userId" value="@userManager.GetUserId(User)" />
                             <input type="hidden" name="startDate" id="startDate_@car.Id" />
                             <input type="hidden" name="endDate" id="endDate_@car.Id" />
                             <!-- Button to request rental -->

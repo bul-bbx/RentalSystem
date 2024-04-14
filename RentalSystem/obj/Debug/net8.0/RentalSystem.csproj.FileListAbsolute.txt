@@ -260,3 +260,4 @@ C:\Users\44740\Desktop\Maika mu daiba\RentalSystem\RentalSystem\bin\Debug\net8.0
 C:\Users\44740\Desktop\Maika mu daiba\RentalSystem\RentalSystem\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\44740\Desktop\Maika mu daiba\RentalSystem\RentalSystem\obj\Debug\net8.0\RentalSystem.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\44740\Desktop\Maika mu daiba\RentalSystem\RentalSystem\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\44740\Desktop\Maika mu daiba\RentalSystem\RentalSystem\obj\Debug\net8.0\RentalSystem.sourcelink.json

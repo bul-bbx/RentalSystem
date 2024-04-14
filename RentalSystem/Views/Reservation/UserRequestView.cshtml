@@ -1,5 +1,10 @@
 ﻿@model IEnumerable<CarListingViewModel>
-
+@using Microsoft.AspNetCore.Identity;
+@using RentalSystem.Data.Entities;
+@inject UserManager<User> userManager;
+@* @{
+    Layout = "Views/Reservation/_ReservationPartial.cshtml";
+} *@
 <h2>Available Cars</h2>
 <h3>Specify Rental Dates</h3>
 <!-- Rental date selection form -->
@@ -37,6 +42,7 @@
     </tbody>
 </table>
 
+
 @section Scripts {
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -59,6 +65,24 @@
                     })
                     .fail(function () {
                         console.error("Error fetching available cars.");
+                    });
+            });
+
+            // Handle reservation form submission
+            $(document).on('submit', '.reservationForm', function (event) {
+                event.preventDefault(); // Prevent form submission
+
+                // Get form data
+                var formData = $(this).serialize();
+
+                // Perform AJAX request to create reservation
+                $.post("/Reservations/Create", formData)
+                    .done(function (data) {
+                        // Display success message or perform any other actions
+                        console.log("Reservation created successfully.");
+                    })
+                    .fail(function () {
+                        console.error("Error creating reservation.");
                     });
             });
         });

@@ -21,7 +21,6 @@
                 <th>Description</th>
                 <th>Price Per Day</th>
                 <th>Fuel</th>
-                <th>Actions</th>
             </tr>
         </thead>
         <!-- Table Body -->
@@ -38,18 +37,6 @@
                     <td>@car.Description</td>
                     <td>@car.PricePerDay</td>
                     <td>@car.Fuel</td>
-                    <td>
-                        <!-- Form for requesting rental -->
-                        <form id="rentalRequestForm_@car.Id" asp-controller="Cars" asp-action="RequestRental" method="post">
-                            <!-- Hidden input fields for car ID, start date, and end date -->
-                            <input type="hidden" name="carId" value="@car.Id" />
-                            <input type="hidden" name="userId" value="@userManager.GetUserId(User)" />
-                            <input type="hidden" name="startDate" id="startDate_@car.Id" />
-                            <input type="hidden" name="endDate" id="endDate_@car.Id" />
-                            <!-- Button to request rental -->
-                            <button type="button" class="btn btn-success btn-request-rental" data-car-id="@car.Id">Request Rental</button>
-                        </form>
-                    </td>
                 </tr>
             }
         </tbody>

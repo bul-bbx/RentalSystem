@@ -316,6 +316,87 @@ footer {
     color: #fff;
 }
 
-    .btn-danger:hover {
-        background-color: #c82333;
+.btn-danger:hover {
+    background-color: #c82333;
+}
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
     }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Roboto", sans-serif;
+}
+
+div.login-logout-tab div.card-header {
+    padding: 0px 0px 0px 0px;
+}
+
+div.login-logout-tab ul.nav-tabs {
+    margin: 0px 0px 0px 0px;
+}
+
+div.login-logout-tab li.nav-item-1 {
+    width: 100%;
+}
+
+div.login-logout-tab li.nav-item-2 {
+    width: 50%;
+}
+
+div.login-logout-tab li.nav-item-5 {
+    width: 20%;
+}
+
+div.login-logout-tab a.nav-link {
+    font-size: 20px;
+    color: #495057;
+    text-align: center;
+}
+
+div.card-content {
+    padding: 10px 20px;
+}
+
+div.login-form-icon {
+    text-align: center;
+}
+
+.fas {
+    font-weight: 900;
+}
+
+fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa-9x {
+    font-size: 9em;
+}
+
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+.text-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+}
+

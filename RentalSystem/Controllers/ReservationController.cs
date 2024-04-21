@@ -26,7 +26,7 @@ namespace RentalSystem.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(ReservationCreateBindingModel model)
+        public async Task<IActionResult> Create([FromForm]ReservationCreateBindingModel model)
         {
             if (!ModelState.IsValid)
             {

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|c:\\users\\44740\\desktop\\maika mu daiba\\rentalsystem\\rentalsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|solutionrelative:rentalsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|c:\\users\\44740\\desktop\\maika mu daiba\\rentalsystem\\rentalsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|solutionrelative:rentalsystem\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -105,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|c:\\users\\44740\\desktop\\maika mu daiba\\rentalsystem\\rentalsystem\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|solutionrelative:rentalsystem\\views\\cars\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|c:\\users\\44740\\desktop\\maika mu daiba\\rentalsystem\\rentalsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|solutionrelative:rentalsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28036E63-105A-41B8-9094-418F2670A483}|RentalSystem\\RentalSystem.csproj|c:\\users\\44740\\desktop\\maika mu daiba\\rentalsystem\\rentalsystem\\data\\models\\entities\\carservicemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -366,24 +366,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:51:05.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "RentalSystem\\wwwroot\\css\\site.css",
@@ -396,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -404,12 +391,11 @@
               "RelativeToolTip": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T19:48:46.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T19:48:46.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AdminRequestView.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Reservation\\AdminRequestView.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Reservation\\AdminRequestView.cshtml",
@@ -417,12 +403,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Reservation\\AdminRequestView.cshtml",
               "ViewState": "AQIAAB4AAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:38:12.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:38:12.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AvailableCars.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Cars\\AvailableCars.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Cars\\AvailableCars.cshtml",
@@ -430,12 +415,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Cars\\AvailableCars.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:49:48.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:49:48.225Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CarReservationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\CarReservationViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\CarReservationViewModel.cs",
@@ -443,12 +427,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\CarReservationViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:07:00.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:07:00.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -456,12 +439,11 @@
               "RelativeToolTip": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAA5wEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:24:29.056Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:24:29.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Cars\\Create.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Cars\\Create.cshtml",
@@ -469,12 +451,36 @@
               "RelativeToolTip": "RentalSystem\\Views\\Cars\\Create.cshtml",
               "ViewState": "AQIAABsAAAAAAAAAAAAAAC0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:46:31.552Z",
+              "WhenOpened": "2024-04-14T12:46:31.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RentalSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RentalSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACgAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T12:34:54.047Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "RentalSystem\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-14T12:51:05.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_AuthLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
@@ -482,12 +488,11 @@
               "RelativeToolTip": "RentalSystem\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-20T19:47:53.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-20T19:47:53.713Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserListingViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\UserListingViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\UserListingViewModel.cs",
@@ -495,12 +500,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\UserListingViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:11:32.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:11:32.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CarsController.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Controllers\\CarsController.cs",
@@ -508,12 +512,11 @@
               "RelativeToolTip": "RentalSystem\\Controllers\\CarsController.cs",
               "ViewState": "AQIAAKIAAAAAAAAAAAAiwKcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:00:54.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:00:54.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Controllers\\HomeController.cs",
@@ -521,12 +524,11 @@
               "RelativeToolTip": "RentalSystem\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:20:16.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:20:16.598Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ReservationController.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Controllers\\ReservationController.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Controllers\\ReservationController.cs",
@@ -539,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Controllers\\UserController.cs",
@@ -547,12 +549,11 @@
               "RelativeToolTip": "RentalSystem\\Controllers\\UserController.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:09:12.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:09:12.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_ReservationPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Reservation\\_ReservationPartial.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Reservation\\_ReservationPartial.cshtml",
@@ -560,12 +561,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Reservation\\_ReservationPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:38:57.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:38:57.472Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Reservation\\Index.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Reservation\\Index.cshtml",
@@ -573,12 +573,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Reservation\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:47:41.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:47:41.242Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UserRequestView.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Reservation\\UserRequestView.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Reservation\\UserRequestView.cshtml",
@@ -586,12 +585,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Reservation\\UserRequestView.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAAFcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T13:17:30.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T13:17:30.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AllCarsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\AllCarsViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\AllCarsViewModel.cs",
@@ -599,12 +597,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\AllCarsViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:41.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:41.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "AvailableCarViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\AvailableCarViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\AvailableCarViewModel.cs",
@@ -612,12 +609,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\AvailableCarViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:44.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:44.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "CarCreateBindingModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\CarCreateBindingModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\CarCreateBindingModel.cs",
@@ -625,12 +621,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\CarCreateBindingModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:47.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:47.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "CarDeleteViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\CarDeleteViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\CarDeleteViewModel.cs",
@@ -638,12 +633,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\CarDeleteViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:51.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:51.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CarDetailsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\CarDetailsViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\CarDetailsViewModel.cs",
@@ -651,12 +645,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\CarDetailsViewModel.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAgwCMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:56.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:56.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "CarEditViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\CarEditViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\CarEditViewModel.cs",
@@ -664,12 +657,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\CarEditViewModel.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:15:02.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:15:02.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Data\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "RentalSystem\\Data\\Models\\ErrorViewModel.cs",
@@ -677,12 +669,11 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:15:17.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:15:17.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Shared\\_LoginPartial.cshtml",
@@ -690,12 +681,11 @@
               "RelativeToolTip": "RentalSystem\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:35:03.287Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:35:03.287Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Cars\\Edit.cshtml",
               "RelativeDocumentMoniker": "RentalSystem\\Views\\Cars\\Edit.cshtml",
@@ -703,21 +693,7 @@
               "RelativeToolTip": "RentalSystem\\Views\\Cars\\Edit.cshtml",
               "ViewState": "AQIAABAAAAAAAAAAAAAWwB4AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:48:24.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "RentalSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\44740\\Desktop\\Maika mu daiba\\RentalSystem\\RentalSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "RentalSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAC8AAABmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-14T12:34:54.047Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:48:24.304Z"
             },
             {
               "$type": "Document",
@@ -729,8 +705,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Models\\Entities\\CarServiceModel.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAuwB4AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:04:23.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:04:23.274Z"
             },
             {
               "$type": "Document",
@@ -742,8 +717,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Services\\ICarService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:07:18.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:07:18.736Z"
             },
             {
               "$type": "Document",
@@ -755,8 +729,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Services\\IReservationService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAcwAgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:11:48.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:11:48.41Z"
             },
             {
               "$type": "Document",
@@ -768,8 +741,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Mapping\\IMapWith.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:03.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:03.363Z"
             },
             {
               "$type": "Document",
@@ -781,8 +753,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Middleware\\RoleSeeder.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:14:19.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:14:19.63Z"
             },
             {
               "$type": "Document",
@@ -794,8 +765,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Mapping\\AutoMapperConfig.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwBUAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:04:21.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:04:21.393Z"
             },
             {
               "$type": "Document",
@@ -807,8 +777,7 @@
               "RelativeToolTip": "RentalSystem\\Data\\Entities\\Reservation.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAwAMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T12:02:08.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T12:02:08.048Z"
             },
             {
               "$type": "Document",

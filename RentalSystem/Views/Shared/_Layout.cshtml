@@ -38,7 +38,7 @@
                                     <a class="nav-link text-dark" asp-controller="Cars" asp-action="My">My Cars</a>
                                     @if (User.IsInRole("Admin"))
                                     {
-                                        <a class="dropdown-item" asp-controller="Cars" asp-action="Create">Create Car</a>
+                                        <a class="nav-link text-dark" asp-controller="Cars" asp-action="Create">Create Car</a>
                                     }
                                 </div>
                             </li>

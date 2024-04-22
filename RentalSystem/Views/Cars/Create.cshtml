@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Create";
+    Layout = "~/Views/Cars/_CarLayout.cshtml";
 }
 
 <h1>Create Car</h1>
@@ -10,49 +11,69 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 
 <div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="car-form-container"></div>
-            <div class="form-group">
-                <label asp-for="Brand" class="car-label"></label>
-                <input asp-for="Brand" class="car-input" />
-                <span asp-validation-for="Brand" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Model" class="car-label"></label>
-                <input asp-for="Model" class="car-input" />
-                <span asp-validation-for="Model" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Year" class="car-label"></label>
-                <input asp-for="Year" class="car-input" />
-                <span asp-validation-for="Year" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PassengerSeats" class="car-label"></label>
-                <input asp-for="PassengerSeats" class="car-input" />
-                <span asp-validation-for="PassengerSeats" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Description" class="car-label"></label>
-                <input asp-for="Description" class="car-input" />
-                <span asp-validation-for="Description" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="PricePerDay" class="car-label"></label>
-                <input asp-for="PricePerDay" class="car-input" />
-                <span asp-validation-for="PricePerDay" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Fuel" class="car-label"></label>
-                <input asp-for="Fuel" class="car-input" />
-                <span asp-validation-for="Fuel" class="car-error-message"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="car-btn" />
-            </div>
-        </form>
-    </div>
+    <center>
+        <div>
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="car-form-container"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Brand" class="car-label"></label>
+                            <input asp-for="Brand" class="car-input" />
+                            <span asp-validation-for="Brand" class="car-error-message"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Model" class="car-label"></label>
+                            <input asp-for="Model" class="car-input" />
+                            <span asp-validation-for="Model" class="car-error-message"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Year" class="car-label"></label>
+                            <input asp-for="Year" class="car-input" />
+                            <span asp-validation-for="Year" class="car-error-message"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="PassengerSeats" class="car-label"></label>
+                            <input asp-for="PassengerSeats" class="car-input" />
+                            <span asp-validation-for="PassengerSeats" class="car-error-message"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="car-label"></label>
+                    <input asp-for="Description" class="car-input" />
+                    <span asp-validation-for="Description" class="car-error-message"></span>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="PricePerDay" class="car-label"></label>
+                            <input asp-for="PricePerDay" class="car-input" />
+                            <span asp-validation-for="PricePerDay" class="car-error-message"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Fuel" class="car-label"></label>
+                            <input asp-for="Fuel" class="car-input" />
+                            <span asp-validation-for="Fuel" class="car-error-message"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="car-btn" />
+                </div>
+            </form>
+        </div>
+    </center>
 </div>
 
 @section Scripts {

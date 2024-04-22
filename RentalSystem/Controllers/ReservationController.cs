@@ -25,6 +25,12 @@ namespace RentalSystem.Web.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult AdminRequestView()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Create([FromForm]ReservationCreateBindingModel model)
         {

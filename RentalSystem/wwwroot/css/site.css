@@ -355,6 +355,10 @@ div.login-logout-tab li.nav-item-2 {
     width: 50%;
 }
 
+div.login-logout-tab li.nav-item-3 {
+    width: calc(100%/3);
+}
+
 div.login-logout-tab li.nav-item-5 {
     width: 20%;
 }

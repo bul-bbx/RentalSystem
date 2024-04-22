@@ -214,6 +214,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xNeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/Cars/_CarLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fyc1xfQ2FyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -234,6 +238,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cVXNlclJlcXVlc3RWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/Reservation/_ReservationLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cX1Jlc2VydmF0aW9uTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/Reservation/_ReservationPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YXRpb25cX1Jlc2VydmF0aW9uUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -252,6 +260,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/User/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxfVXNlckxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/44740/Desktop/Maika mu daiba/RentalSystem/RentalSystem/Views/_ViewImports.cshtml]
